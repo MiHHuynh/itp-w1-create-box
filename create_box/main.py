@@ -2,7 +2,13 @@
 
 
 def create_box(height, width, character):
-    pass #test
+    box = ''
+    n = 0
+    for n in range(height):
+        for n in range(width):
+            box += character
+        box += '\n'
+    return box
 
 
 if __name__ == '__main__':
